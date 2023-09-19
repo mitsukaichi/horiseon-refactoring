@@ -9,35 +9,33 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    justify-content: space-between;
 }
 
 header h1{
-    display: inline-block;
+    display: flex;
     font-size: 48px;
 }
 header h1 .seo {
     color: #d9dcd6;
 }
 
-header nav{
-    display: inline-block;
-}
-/* need to fix the header nav to right align*/
 header nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
     margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
 header nav ul li{
     list-style-type: none;
-    display: inline-block;
     margin-left: 25px;
 }
 
