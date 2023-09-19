@@ -12,7 +12,7 @@ As the following criteria are given to the project:
 
 ## Installation
 
-Visit https://mitsukaichi.github.io/horiseon-refactoring/#social-media-marketing
+Visit https://mitsukaichi.github.io/horiseon-refactoring/
 
 ## How I addressed this challenge
 
