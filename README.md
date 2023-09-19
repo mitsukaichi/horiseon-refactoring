@@ -10,6 +10,10 @@ As the following criteria are given to the project:
 - The icon and image elements have alt attributes
 - The title element contains a concise, descriptive title
 
+## Installation
+
+Visit https://mitsukaichi.github.io/horiseon-refactoring/#social-media-marketing
+
 ## How I addressed this challenge
 
 I researched about what the semantic HTML elements are and referred to the following websites;
