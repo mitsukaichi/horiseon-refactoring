@@ -18,7 +18,6 @@ header {
 }
 
 header h1{
-    display: flex;
     font-size: 48px;
 }
 header h1 .seo {
