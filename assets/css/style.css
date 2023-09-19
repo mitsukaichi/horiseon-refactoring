@@ -27,7 +27,7 @@ header h1 .seo {
 header nav{
     display: inline-block;
 }
-
+/* need to fix the header nav to right align*/
 header nav ul{
     margin-right: 20px;
     float: right;
@@ -41,15 +41,10 @@ header nav ul li{
     margin-left: 25px;
 }
 
-a {
+header nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
-
-p {
-    font-size: 16px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -75,6 +70,25 @@ p {
     margin-left: 20px;
 }
 
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.content article img {
+    max-height: 200px;
+}
+
+.content article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -92,7 +106,7 @@ aside article {
     color: #ffffff;
 }
 
-aside article h3 {
+aside article h2 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -101,60 +115,6 @@ aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
