@@ -1,3 +1,4 @@
+/*-- Defining the box sizing, padding and margin applied to the entire page */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*-- Styling the header element with flexbox to distribute header and nav */
 header {
     display: flex;
     justify-content: space-between;
@@ -16,6 +18,7 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
+
 
 header h1{
     font-size: 48px;
@@ -42,6 +45,8 @@ header nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
+
+/*-- Hero image right after the heading */
 .hero {
     height: 800px;
     width: 100%;
@@ -51,16 +56,7 @@ header nav ul li a {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*-- Main content of the page */
 .content {
     width: 75%;
     display: inline-block;
@@ -86,6 +82,18 @@ header nav ul li a {
     font-size: 36px;
 }
 
+/*-- Specifying the object alignment in the main section */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*-- Left tree content */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -114,6 +122,7 @@ aside img {
     max-width: 150px;
 }
 
+/*-- Fotter content */
 footer {
     padding: 30px;
     clear: both;

@@ -13,6 +13,7 @@ As the following criteria are given to the project:
 ## Installation
 
 Visit https://mitsukaichi.github.io/horiseon-refactoring/
+[Screenshot](./assets/images/screenshot.png)
 
 ## How I addressed this challenge
 
